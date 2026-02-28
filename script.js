@@ -32,7 +32,7 @@ const defaultStudents = [
     },
     {
         id: 5,
-        fullName: "Aminata Tall",
+        fullName: "Kemo Badji",
         major: "Data Science & Intelligence Artificielle",
         imageUrl: "https://images.unsplash.com/photo-1589156280159-27698a70f29e?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
         description: "Les données sont le nouveau pétrole. Je me spécialise dans l'analyse de données pour aider les entreprises sénégalaises à prendre de meilleures décisions stratégiques."
