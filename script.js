@@ -47,9 +47,9 @@ const defaultStudents = [
     {
         id: 7,
         fullName: "Mame Binta",
-        major: "Agro-industrie et Technologies Alimentaires",
-        imageUrl: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
-        description: "L'autosuffisance alimentaire est cruciale. J'étudie comment moderniser nos chaînes de transformation agricole tout en respectant l'environnement et nos traditions."
+        major: "Licence Data et Intelligence artificielle",
+        imageUrl: "https://thumbs.dreamstime.com/z/concept-global-de-technologie-digitale-17575170.jpg",
+        description: "L'intelligence artificielle est une branche de l'informatique qui permet aux machines de simuler l'intelligence humaine. Je l'étudie pour être en mesure de l'utiliser dans presque tous les domaines"
     },
     {
         id: 8,
