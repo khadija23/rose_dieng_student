@@ -25,7 +25,7 @@ const defaultStudents = [
     },
     {
         id: 4,
-        fullName: "Ababacar Sedikh Gueye",
+        fullName: "Ababacar Sedikh Gueye.2",
         major: "Génie Civil et Urbanisme Durable",
         imageUrl: "aboubacar sedikh",
         description: "Mon rêve est de concevoir les villes africaines de demain. L'apprentissage par projet ici me permet de prototyper des infrastructures écologiques et intelligentes."
