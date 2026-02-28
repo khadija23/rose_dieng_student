@@ -25,9 +25,9 @@ const defaultStudents = [
     },
     {
         id: 4,
-        fullName: "Mamadou Fall",
+        fullName: "Ababacar SEdikh Gueye",
         major: "Génie Civil et Urbanisme Durable",
-        imageUrl: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+        imageUrl: "astablackclover.jpg",
         description: "Mon rêve est de concevoir les villes africaines de demain. L'apprentissage par projet ici me permet de prototyper des infrastructures écologiques et intelligentes."
     },
     {
@@ -98,8 +98,8 @@ function saveStudent(student) {
 // Fonction pour générer le HTML d'une carte étudiant
 function createStudentCard(student) {
     // Image par défaut si aucune URL n'est fournie
-    const imgUrl = student.imageUrl && student.imageUrl.trim() !== "" 
-        ? student.imageUrl 
+    const imgUrl = student.imageUrl && student.imageUrl.trim() !== ""
+        ? student.imageUrl
         : "https://ui-avatars.com/api/?name=" + encodeURIComponent(student.fullName) + "&background=003366&color=fff&size=300";
 
     return `
@@ -120,10 +120,10 @@ function createStudentCard(student) {
 function renderStudents() {
     const container = document.getElementById('students-container');
     const students = getStudents();
-    
+
     // Vider le conteneur
     container.innerHTML = '';
-    
+
     // Ajouter les étudiants (du plus récent au plus ancien pour voir les ajouts en premier)
     [...students].reverse().forEach(student => {
         container.innerHTML += createStudentCard(student);
@@ -131,15 +131,15 @@ function renderStudents() {
 }
 
 // Gestionnaire d'événement pour le formulaire
-document.getElementById('add-student-form').addEventListener('submit', function(e) {
+document.getElementById('add-student-form').addEventListener('submit', function (e) {
     e.preventDefault(); // Empêche le rechargement de la page
-    
+
     // Récupérer les valeurs du formulaire
     const fullName = document.getElementById('fullName').value;
     const major = document.getElementById('major').value;
     const imageUrl = document.getElementById('imageUrl').value;
     const description = document.getElementById('description').value;
-    
+
     // Créer un nouvel objet étudiant
     const newStudent = {
         id: Date.now(), // Utilise le timestamp comme ID unique
@@ -148,14 +148,14 @@ document.getElementById('add-student-form').addEventListener('submit', function(
         imageUrl: imageUrl,
         description: description
     };
-    
+
     // Sauvegarder et réafficher
     saveStudent(newStudent);
     renderStudents();
-    
+
     // Réinitialiser le formulaire
     this.reset();
-    
+
     // Message de confirmation et défilement vers la liste
     alert("Votre profil a été ajouté avec succès à l'annuaire !");
     document.getElementById('students').scrollIntoView({ behavior: 'smooth' });
