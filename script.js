@@ -60,8 +60,8 @@ const defaultStudents = [
     },
     {
         id: 9,
-        fullName: "Ndeye Gaye",
-        major: "Télécommunications et Réseaux",
+        fullName: "Alimatou Sadiya Meizoun",
+        major: "Data et IA",
         imageUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
         description: "Connecter les zones les plus reculées d'Afrique est mon ambition. La collaboration avec le monde socio-économique à l'URDFS me donne une vision concrète du terrain."
     },
