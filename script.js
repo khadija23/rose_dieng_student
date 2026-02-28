@@ -46,7 +46,7 @@ const defaultStudents = [
     },
     {
         id: 7,
-        fullName: "Khadija Ba",
+        fullName: "Mame Binta",
         major: "Agro-industrie et Technologies Alimentaires",
         imageUrl: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
         description: "L'autosuffisance alimentaire est cruciale. J'étudie comment moderniser nos chaînes de transformation agricole tout en respectant l'environnement et nos traditions."
