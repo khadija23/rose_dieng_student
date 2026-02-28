@@ -41,7 +41,7 @@ const defaultStudents = [
         id: 6,
         fullName: "Abdou Aziz SAMB",
         major: "Data Scientist and AI",
-        imageUrl: "https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+        imageUrl: "https://pixnio.com/free-images/2017/05/12/2017-05-12-11-21-17-960x1200.jpg",
         description: "J'ai choisi cette formation car je veux aider aux entreprses affricaine de prendre des décisions"
     },
     {
