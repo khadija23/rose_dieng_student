@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annuaire des Étudiants - Université Rose Dieng</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Université Rose Dieng <span>France-Sénégal</span></h1>
+            <nav>
+                <a href="#students">Les Étudiants</a>
+                <a href="#add-profile">Ajouter mon profil</a>
+                <a href="#about-urdfs">À propos</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-global">
+        <div class="container text-center">
+            <h2>L'excellence académique au service de l'innovation</h2>
+            <p>Découvrez les talents de l'Université Rose Dieng France-Sénégal (URDFS). Un lieu d'incubation où l'intelligence collective et la créativité préparent les leaders de demain.</p>
+            <a href="#add-profile" class="btn">Rejoindre l'annuaire</a>
+        </div>
+    </section>
+
+    <section id="students" class="students-section container">
+        <div class="section-header text-center">
+            <h2>Nos Étudiants</h2>
+            <p>Découvrez les profils de ceux qui feront le Sénégal et l'Afrique de demain.</p>
+        </div>
+        
+        <!-- C'est ici que les cartes des étudiants seront ajoutées par JavaScript -->
+        <div class="students-grid" id="students-container">
+            <!-- Le contenu est généré dynamiquement -->
+        </div>
+    </section>
+
+    <section id="add-profile" class="add-profile-section">
+        <div class="container">
+            <div class="form-container">
+                <div class="section-header text-center">
+                    <h2>Ajouter votre profil</h2>
+                    <p>Faites partie de la communauté URDFS en partageant votre parcours.</p>
+                </div>
+                
+                <form id="add-student-form">
+                    <div class="form-group">
+                        <label for="fullName">Prénom et Nom *</label>
+                        <input type="text" id="fullName" required placeholder="Ex: Amadou Diallo">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="major">Filière / Spécialité *</label>
+                        <input type="text" id="major" required placeholder="Ex: Ingénierie Informatique">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="imageUrl">Lien de votre photo (URL)</label>
+                        <input type="url" id="imageUrl" placeholder="Ex: https://lien-vers-ma-photo.jpg">
+                        <small>Laissez vide pour utiliser un avatar par défaut.</small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="description">Courte description *</label>
+                        <textarea id="description" rows="4" required placeholder="Décrivez vos passions, vos projets et vos ambitions..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-full">Publier mon profil</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-urdfs" class="about-urdfs">
+        <div class="container">
+            <h2>À propos de l'Université Rose Dieng France-Sénégal</h2>
+            <div class="urdfs-grid">
+                <div class="urdfs-text">
+                    <p><strong>L'Université Rose Dieng France-Sénégal (URDFS)</strong> est un établissement public d’enseignement supérieur axé sur l'excellence académique et l'innovation pédagogique. Son offre de formations, développée en collaboration avec le monde socio-économique, répond aux standards internationaux dans un environnement où l'apprenant est au centre du dispositif "formation-entreprise-recherche."</p>
+                    
+                    <h3>Notre Mission</h3>
+                    <p>L’objectif principal est de préparer les générations futures à s’intégrer dans un marché du travail en évolution, en tenant compte que de nombreux métiers de demain n'existent pas encore. Grâce à une approche qui valorise l'intelligence collective, la créativité et l'inclusion sociale, l'URDFS se positionne comme un lieu d'incubation de talents. L'université met l'accent sur l'apprentissage par projets et le travail en équipe, offrant aux étudiants un cadre propice à la découverte et au développement de leurs compétences.</p>
+                    <p>Cette mission inclut également la formation de citoyens responsables, attentifs aux enjeux du vivre ensemble et à la préservation de l'environnement. L’université participe activement au développement socio-économique du Sénégal et du continent africain.</p>
+                </div>
+                
+                <div class="urdfs-audience">
+                    <h3>Un public bien identifié :</h3>
+                    <ul>
+                        <li>Les jeunes souhaitant contribuer au développement du Sénégal.</li>
+                        <li>Les familles désireuses que leurs jeunes poursuivent leurs études au Sénégal ou en Afrique.</li>
+                        <li>Les étudiants ne pouvant pas se déplacer pour des raisons financières ou administratives.</li>
+                        <li>Les personnes souhaitant obtenir un diplôme reconnu.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Annuaire des Étudiants - Université Rose Dieng France-Sénégal. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Ajout du script pour gérer l'ajout dynamique -->
+    <script src="script.js"></script>
+</body>
+</html>
