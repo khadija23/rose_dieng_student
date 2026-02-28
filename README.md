@@ -2,21 +2,21 @@
 
 Une page de présentation et un annuaire interactif développés pour mettre en valeur les étudiants de l'Université Rose Dieng France-Sénégal.
 
-## 🚀 Fonctionnalités
+##  Fonctionnalités
 
 - **Trombinoscope dynamique :** Affichage sous forme de grille des profils des étudiants (nom, filière, photo et description).
 - **Ajout de profil :** Un formulaire intégré permettant aux nouveaux étudiants de s'ajouter à l'annuaire au fur et à mesure.
 - **Persistance des données :** Les nouveaux profils ajoutés sont sauvegardés localement via le `localStorage` du navigateur.
 - **Design Responsive :** L'interface s'adapte parfaitement aux écrans d'ordinateurs, tablettes et smartphones.
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 Ce projet est conçu de manière simple et légère, sans nécessité d'un serveur backend :
 - **HTML5** pour la structure
 - **CSS3** pour le style (Variables CSS, Flexbox, CSS Grid)
 - **Vanilla JavaScript** pour la logique (manipulation du DOM, gestion des événements, LocalStorage)
 
-## 💻 Comment utiliser le projet ?
+##  Comment utiliser le projet ?
 
 Aucune installation complexe n'est requise :
 1. Clonez ce dépôt sur votre machine locale :
@@ -33,4 +33,4 @@ L'Université Rose Dieng France-Sénégal (URDFS) est un établissement public d
 L’objectif principal est de préparer les générations futures à s’intégrer dans un marché du travail en évolution, grâce à une approche qui valorise l'intelligence collective, la créativité et l'inclusion sociale.
 
 ---
-*Créé par Khadija.*
+*Créé par Mrs Sankhare.*
