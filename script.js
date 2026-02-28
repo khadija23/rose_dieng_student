@@ -70,7 +70,7 @@ const defaultStudents = [
         fullName: "Khadidiatou Diasse",
         major: "data science",
         imageUrl: "",
-        description: "je suis dans le domaine de l'IA parceque je l'aime et je veux etre un ingenieur dans l'IA"
+        description: "je suis dans le domaine de l'IA parceque je l'aime et je veux etre un ingenieur dans"
     }
 ];
 
