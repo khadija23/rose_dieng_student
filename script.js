@@ -67,9 +67,9 @@ const defaultStudents = [
     },
     {
         id: 10,
-        fullName: "Lamine Touré",
+        fullName: "Khadidiatou Diasse",
         major: "Management de l'Innovation",
-        imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+        imageUrl: "",
         description: "Je fais le pont entre la technologie et le business. Mon objectif est d'accompagner la création de startups technologiques viables issues de la recherche universitaire."
     }
 ];
