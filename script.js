@@ -11,10 +11,10 @@ const defaultStudents = [
     },
     {
         id: 2,
-        fullName: "Cheikh Ndiaye",
-        major: "Énergies Renouvelables",
-        imageUrl: "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
-        description: "Conscient des enjeux environnementaux, je me forme aux énergies vertes. Mon but est de créer des solutions durables pour les zones rurales du Sénégal."
+        fullName: "Khadim Gueye",
+        major: "Data Science",
+        imageUrl: "https://arthurmag.com/wp-content/uploads/2009/09/villainous-mac-cheeze-1.jpg",
+        description: "Conscient des enjeux environnementaux, je me forme en data science. Mon but est de créer des solutions durables pour les zones rurales du Sénégal."
     },
     {
         id: 3,
