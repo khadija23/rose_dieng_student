@@ -68,9 +68,9 @@ const defaultStudents = [
     {
         id: 10,
         fullName: "Khadidiatou Diasse",
-        major: "Management de l'Innovation",
+        major: "data science",
         imageUrl: "",
-        description: "Je fais le pont entre la technologie et le business. Mon objectif est d'accompagner la création de startups technologiques viables issues de la recherche universitaire."
+        description: "je suis dans le domaine de l'IA parceque je l'aime et je veux etre un ingenieur dans l'IA"
     }
 ];
 
