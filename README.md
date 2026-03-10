@@ -33,4 +33,4 @@ L'Université Rose Dieng France-Sénégal (URDFS) est un établissement public d
 L’objectif principal est de préparer les générations futures à s’intégrer dans un marché du travail en évolution, grâce à une approche qui valorise l'intelligence collective, la créativité et l'inclusion sociale.
 
 ---
-*Créé par Mrs Sankhare.*
+*Créé par Mrs SAMB.*
