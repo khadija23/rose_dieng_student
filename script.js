@@ -25,7 +25,7 @@ const defaultStudents = [
     },
     {
         id: 4,
-        fullName: "Mamadou Fall",
+        fullName: "Mamadou Camara",
         major: "Génie Civil et Urbanisme Durable",
         imageUrl: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
         description: "Mon rêve est de concevoir les villes africaines de demain. L'apprentissage par projet ici me permet de prototyper des infrastructures écologiques et intelligentes."
