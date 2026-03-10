@@ -53,9 +53,9 @@ const defaultStudents = [
     },
     {
         id: 8,
-        fullName: "Moussa Sarr",
+        fullName: "Rokhaya",
         major: "Génie Mécanique et Automatisation",
-        imageUrl: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+        imageUrl: "https://clipart-library.com/2024/women-profiles/women-profiles-12.jpg",
         description: "De la conception 3D à la robotique, j'adore inventer des machines. Je veux créer des outils automatisés accessibles pour les artisans locaux."
     },
     {
