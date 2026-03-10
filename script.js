@@ -60,9 +60,9 @@ const defaultStudents = [
     },
     {
         id: 9,
-        fullName: "Alimatou Sadiya Meizoun",
-        major: "Data et IA",
-        imageUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+        fullName: "Etudiante Alimatou ",
+        major: "rose dieng Data et IA",
+        imageUrl: "https://st.depositphotos.com/1054749/2508/i/950/depositphotos_25087039-stock-photo-outdoor-portrait-of-a-cute.jpg",
         description: "Connecter les zones les plus reculées d'Afrique est mon ambition. La collaboration avec le monde socio-économique à l'URDFS me donne une vision concrète du terrain."
     },
     {
