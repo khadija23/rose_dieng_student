@@ -34,7 +34,7 @@ const defaultStudents = [
         id: 5,
         fullName: "Kemo Badji",
         major: "Data Science & Intelligence Artificielle",
-        imageUrl: "https://images.unsplash.com/photo-1589156280159-27698a70f29e?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+        imageUrl: "https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&q=70&fm=webp",
         description: "Les données sont le nouveau pétrole. Je me spécialise dans l'analyse de données pour aider les entreprises sénégalaises à prendre de meilleures décisions stratégiques."
     },
     {
