@@ -4,7 +4,7 @@
 const defaultStudents = [
     {
         id: 1,
-        fullName: "Fatou Diop",
+        fullName: "Fatou Kama",
         major: "Ingénierie des Systèmes Intelligents",
         imageUrl: "https://images.unsplash.com/photo-1531123897727-8f129e1b4dce?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
         description: "Passionnée par l'intelligence artificielle, j'ai rejoint l'URDFS pour participer au développement technologique de l'Afrique. J'aime le travail en équipe et l'approche par projet."
