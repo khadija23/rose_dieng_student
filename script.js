@@ -4,7 +4,7 @@
 const defaultStudents = [
     {
         id: 1,
-        fullName: "Fatou Diop",
+        fullName: "Khady Ndiaye",
         major: "Ingénierie des Systèmes Intelligents",
         imageUrl: "https://images.unsplash.com/photo-1531123897727-8f129e1b4dce?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
         description: "Passionnée par l'intelligence artificielle, j'ai rejoint l'URDFS pour participer au développement technologique de l'Afrique. J'aime le travail en équipe et l'approche par projet."
@@ -60,7 +60,7 @@ const defaultStudents = [
     },
     {
         id: 9,
-        fullName: "Ndeye Gaye",
+        fullName: "Ndeye Fatou Diop",
         major: "Télécommunications et Réseaux",
         imageUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
         description: "Connecter les zones les plus reculées d'Afrique est mon ambition. La collaboration avec le monde socio-économique à l'URDFS me donne une vision concrète du terrain."
