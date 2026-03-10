@@ -18,7 +18,7 @@ const defaultStudents = [
     },
     {
         id: 3,
-        fullName: "Aïcha Sow",
+        fullName: "Mariama Thiam",
         major: "Bio-informatique",
         imageUrl: "public/students/aicha.png",
         description: "L'intersection entre la biologie et l'informatique me fascine. L'URDFS m'offre un cadre idéal pour la recherche et l'innovation appliquée à la santé."
