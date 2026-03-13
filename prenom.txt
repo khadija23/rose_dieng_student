@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Bonjour.Je me nomme Kemo 
+=======
+version branche principale
+>>>>>>> 9a8985f306de632e34d7c44df5656fc1a776b9ef
